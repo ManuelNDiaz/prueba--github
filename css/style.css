@@ -1,0 +1,452 @@
+/*Fuente para utilizar en la página web*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #00337f, #0e2860, #111d42, #0f1226, #010109);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.inicio { 
+    background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)), url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 983px;
+}
+
+.header-inicio {
+    background: linear-gradient(rgba(95, 95, 95, .6), rgba(95, 95, 95, .6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header-inicio .nav-links li {
+    display: inline-block;
+    align-items: center;
+    padding: 18px;
+}
+
+
+
+.header-inicio .logo .logo2 a{
+    height: 70px;
+    width: auto;
+    position: relative;
+    left: -450px;
+    font-size: 40px;
+    color: darkblue;
+}
+
+
+.header-inicio .nav-links li a{
+    color: white;
+    font-size: 16px;
+}
+
+
+.inicio-img img{
+    width: 550px;
+    height: auto;
+    display: flex;
+    position: relative;
+    left: 1150px;
+    top: 190px;
+}
+
+.texto-inicio {
+
+    width: 839px;
+    height: auto;
+    margin: -280px 50px 75px 145px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto-inicio .bienvenida {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.texto-inicio h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.texto-inicio .nombre {
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(0, 77, 192);
+}
+
+.texto-inicio .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.texto-inicio .cv {
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid rgb(0, 77, 192);
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    /* acá pondría un hover o un transition, pero debido a que todavía no lo enseñaron, voy a evitar utilizarlo*/
+}
+
+.sobremi {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 75px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.sobre-mimg img{
+    width: 550px;
+    height: auto;
+    display: flex;
+    position: relative;
+    left: 160px;
+    top: 115px;
+
+}
+
+.texto-sobremi {
+
+    width: 900px;
+    height: auto;
+    margin: -510px 50px 75px 775px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+
+.texto-sobremi .cv {
+        display: inline-block;
+        margin: 60px 0 0 335px;
+        padding: 20px 25px;
+        border: 2px solid rgb(0, 77, 192);
+        border-radius: 50px;
+        color: white;
+        text-transform: uppercase;
+        /* acá pondría un hover o un transition, pero debido a que todavía no lo enseñaron, voy a evitar utilizarlo*/
+}
+
+.texto-sobremi .infosm{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 5px 0;
+    height: 139px;
+    margin-top: auto;
+}
+.footer-col{
+   display: flex;
+   justify-content: center;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 20px 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+}
+
+.footer .footer-mensaje {
+    display: flex;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    justify-content: center;
+    padding: 3px;
+    margin-top: 25px;
+}
+
+.contenedorh{
+    width: 1162px;
+    column-gap: 170px;
+    height: -400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 620px;  
+    top: 420px;
+    margin-bottom: 40px;    
+}
+
+.habilidades{
+    padding: 10px;
+}
+
+.barra{
+    width: 350px;
+    height: 20px;
+    background: rgba(103, 194, 255, 0.5);
+    border-radius: 10px;
+}
+
+.nhabilidad {
+    text-align: start;
+    color: white;
+}
+
+.progreso {
+    width: var(--w);
+    height: 100%;
+    background: rgb(1, 97, 141);
+    border-radius: 10px;
+}
+
+.porcentaje {
+    text-align: end;
+    color: white;
+}
+
+.stats {
+    display: inline-block;
+    align-items: center;
+    padding: 18px;
+}
+
+.stats li {
+    display: inline-block;
+    padding: 28px;
+}
+
+.stats {
+    margin-left: 880px;
+}
+
+.stats li a{
+    color: white;
+    text-decoration: none;
+    font-style: none;
+    font-weight: bold;
+}
+
+/* Servicios */
+
+
+.tituloms {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 75px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 50px 15px;
+}
+
+.contenedorserv{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 1900px;
+    align-items: center;
+}
+
+.cartaser{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 15rem;
+    background-color: rgba(31, 31, 31, 0.637);
+    border: .1rem solid rgb(0, 60, 150);
+    color: white;
+}
+
+.imgytit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.contenido {
+    padding: 2rem;
+}
+
+hr {
+    width: 235px;
+    margin-left: 30px;
+}
+
+.imgytit i{
+    padding: 0 0 15px;
+}
+
+/* Proyectos */
+
+.titulopr {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 75px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 50px 15px;
+}
+
+.imgpro img {
+    height: 250px;
+    width: 350px;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    overflow: hidden;
+    background-color: rgba(31, 31, 31, 0.637);
+    border: .1rem solid rgb(0, 60, 150);
+    color: white;
+}
+
+.contenedorpro{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 1900px;
+    align-items: center;
+    column-gap: 35px;
+}
+
+/* Contacto */
+
+.titulocon {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 75px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 50px 15px;
+}
+
+.contacto-cont {
+    display: flex;
+    padding-top: 3.5rem;
+    width: 1600px;
+}
+
+.contactoizq {
+    width: 800px;
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    margin-right: 120px;     
+}
+
+.contactoizq h2 {
+    margin-top: 20px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.contactoizq p{
+    margin: 1rem 0;
+}
+
+.contactoder{
+    position: relative;
+    top: -50px;
+    margin-left: 250px;
+}
+
+.input-control {
+    margin: 1.5rem 0;
+}
+
+input, textarea {
+    border-radius: 30px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    padding: .8rem 1.1rem;
+    outline: none;
+    border: none;
+    background: rgb(1, 97, 141);
+    width: 100%;
+    color: white;
+    resize: none;
+}
+
+.i-c-2 {
+    display: flex;
+    column-gap: 20px;
+}
+
+.enviar-btn input {
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 130px;    
+}
+
+.contacto-info .contacto-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
